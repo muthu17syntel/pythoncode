@@ -1,3 +1,5 @@
+# uvicorn gtp-using-ai-search:app --host 127.0.0.1 --port 8000
+# gunicorn -w 1 -k uvicorn.workers.UvicornWorker gtp-using-ai-search:app  -- for production in app service.
 
 # ---------- CLIENTS ----------
 import os
